@@ -1,14 +1,19 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
+import Cart from './pages/Cart';
+import LoginSignup from './pages/LoginSignup';
 import Product from './pages/Product';
+import Shop from './pages/Shop';
 import ShopCategory from './pages/ShopCategory';
-import { BrowserRouter, Rotes, Route } from '/react-router-dom';
+
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <NavBar />
-        <Rotes>
+        <Routes>
           <Route path='/' element={<Shop />} />
           <Route path='/mens' element={<ShopCategory category="men" />} />
           <Route path='/womens' element={<ShopCategory category="women" />} />
@@ -16,8 +21,10 @@ function App() {
           <Route path="/product" element={<Product />}>
             <Route path=':productId' element={<Product />} />
           </Route>
-        </Rotes>
-      </BrowserRouter>
+          <Route path='/cart' element={<Cart />} />
+          <Route path='/login' element={<LoginSignup />} />
+        </Routes>
+      </Router>
     </>
   );
 }
