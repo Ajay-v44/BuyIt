@@ -1,7 +1,7 @@
 import React from 'react'
 import './heo.css'
 import hand_icon from'../Assets/hand_icon.png'
-import arrow_icon from'../Assets/arrow_icon.png'
+import arrow from'../Assets/arrow.png'
 import hero_image from'../Assets/hero_image.png'
 const hero = () => {
   return (
@@ -21,7 +21,7 @@ const hero = () => {
     <div className="hero-latest-btn">
       <div>
         <div>Latest Collection</div>
-        <img src={arrow_icon} alt="" />
+        <img src={arrow} alt="" />
       </div>
     </div>
       <div className="hero-right">
