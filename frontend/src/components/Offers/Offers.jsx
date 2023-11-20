@@ -16,5 +16,5 @@ const Offers = () => {
     </div>
   )
 }
-
+// i hr
 export default Offers
