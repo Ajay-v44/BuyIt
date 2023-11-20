@@ -1,4 +1,4 @@
-.popular{
+.Popular{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,18 +6,18 @@
     height: 90vh;
 }
 
-.popular h1{
+.Popular h1{
     color:#171717;
     font-size: 50px;
     font-weight: 600;
 }
-.popular hr{
+.Popular hr{
     width: 200px;
     height: 6px;
     border-radius: 10px;
     background: #252525;
 }
-.popular-item{
+.Popular-item{
     margin-top: 50px;
     display: flex;
     gap: 30px;
