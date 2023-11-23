@@ -24,8 +24,8 @@
   grid-template-columns: repeat(
     4,
     1fr
-  ); /* Adjust the number based on your desired column count */
-  gap: 20px; /* Adjust the gap as needed */
+  ); 
+  gap: 20px; 
 }
 .shopcategory-loadmore {
   display: flex;
