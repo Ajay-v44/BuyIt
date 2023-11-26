@@ -34,7 +34,23 @@ const ProductDisplay = ({ product }) => {
             ${product.new_price}
           </div>
         </div>
-        <div className="productdisplay-right-description">2:01</div>
+        <div className="productdisplay-right-description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quasi impedit quis tempore voluptatibus laborum quae sapiente neque? Quod nobis esse eum voluptatibus minima eius culpa minus vel hic perspiciatis?
+        </div>
+        <div className="productdisplay-right-size">
+          <h1>Select Size</h1>
+          <div className="productdisplay-right-size">
+            <div>S</div>
+            <div>M</div>
+            <div>L</div>
+            <div>XL</div>
+            <div>XLL</div>
+          </div>
+        </div>
+        <button>ADD TO CART</button>
+        <p className="productdisplay-right-category"> <span>Category:</span> Women,T-Shirt,Crop Top</p>
+        <p className="productdisplay-right-category"> <span>Tags:</span> Modern,Latest</p>
+
       </div>
     </div>
   );
