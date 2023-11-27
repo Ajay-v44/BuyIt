@@ -4,19 +4,20 @@ import star_icon from "../Assets/star_icon.png";
 import star_dull_icon from "../Assets/star_dull_icon.png";
 const ProductDisplay = ({ product }) => {
   return (
-    <div className="ProductDisplay">
+    <div className="productdisplay" >
       <div className="productleft">
-        <div className="productdisplay-img-list">
+        <div className="productdisplay-img-list" >
           <img src={product.image} alt="" />
           <img src={product.image} alt="" />
           <img src={product.image} alt="" />
           <img src={product.image} alt="" />
         </div>
-
         <div className="productdisplay-img">
           <img src={product.image} alt="" className="productdisplay-main-img" />
         </div>
+        
       </div>
+      
       <div className="productright">
         <h1>{product.name}</h1>
         <div className="productdisplay-right-star">
@@ -35,16 +36,16 @@ const ProductDisplay = ({ product }) => {
           </div>
         </div>
         <div className="productdisplay-right-description">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quasi impedit quis tempore voluptatibus laborum quae sapiente neque? Quod nobis esse eum voluptatibus minima eius culpa minus vel hic perspiciatis?
+          New Collection .Exclusive Offer only on BuyIt.
         </div>
         <div className="productdisplay-right-size">
           <h1>Select Size</h1>
-          <div className="productdisplay-right-size">
+          <div className="productdisplay-right-size2">
             <div>S</div>
             <div>M</div>
             <div>L</div>
             <div>XL</div>
-            <div>XLL</div>
+            <div>XXL</div>
           </div>
         </div>
         <button>ADD TO CART</button>
